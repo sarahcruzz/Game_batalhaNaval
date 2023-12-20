@@ -1,4 +1,5 @@
 from PyQt5 import QtWidgets, uic
+import random
 
 class telas:
     def __init__(self):
@@ -8,6 +9,12 @@ class telas:
         self.tela_inicial.show()
         self.tela_inicial.bStart.clicked.connect(self.mudar_tela)
         self.tela_inicial.bSair.clicked.connect(self.fechar_jogo)
+
+        coordenadas_letra = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+        coordenadas_num = ["1","2","3","4","5","6","7","8","9","10"]
+        sorteio = []
+        
+
         app.exec()
     
     def fechar_jogo(self):
