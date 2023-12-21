@@ -31,23 +31,25 @@
      <rect>
       <x>530</x>
       <y>0</y>
-      <width>71</width>
-      <height>31</height>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 0, 0);
-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(214, 0, 0);
+color: rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+border-radius: 5px;</string>
     </property>
     <property name="text">
-     <string>SAIR</string>
+     <string>EXIT</string>
     </property>
    </widget>
    <widget class="QPushButton" name="bStart">
     <property name="geometry">
      <rect>
       <x>220</x>
-      <y>330</y>
+      <y>470</y>
       <width>161</width>
       <height>41</height>
      </rect>
@@ -58,8 +60,9 @@ color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(185, 0, 0);
-color: rgb(255, 255, 255)</string>
+     <string notr="true">background-color: rgb(214, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
     </property>
     <property name="text">
      <string>INICIAR JOGO</string>
@@ -68,8 +71,8 @@ color: rgb(255, 255, 255)</string>
    <widget class="QLabel" name="welcomeToGame">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>170</y>
+      <x>130</x>
+      <y>100</y>
       <width>351</width>
       <height>41</height>
      </rect>
@@ -80,10 +83,11 @@ color: rgb(255, 255, 255)</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(185, 0, 0);
+     <string notr="true">color: white;
+background-color: rgb(214, 0, 0);
 display: flex;
-justify-content: center;</string>
+justify-content: center;
+border-radius: 10px;</string>
     </property>
     <property name="text">
      <string> BEM VINDO AO BATALHA NAVAL !!!</string>
@@ -102,7 +106,7 @@ justify-content: center;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../imgs/BATALHA.jpeg</pixmap>
+     <pixmap>../imgs/tela_inicial.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
